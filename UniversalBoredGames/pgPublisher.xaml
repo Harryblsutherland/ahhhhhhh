@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="UniversalBoredGames.pgPublisher"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UniversalBoredGames"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,571" TextWrapping="Wrap" Text="The Games of" Width="340" FontSize="48"/>
+        <TextBlock x:Name="lblPublisherTitle" HorizontalAlignment="Left" Margin="10,74,0,411" TextWrapping="Wrap" Text="GameName" Width="340" FontSize="48" FontWeight="Bold"/>
+        <ListBox x:Name="lstGames" HorizontalAlignment="Left" Height="315" Margin="10,229,0,0" VerticalAlignment="Top" Width="340" DoubleTapped="lstGames_DoubleTapped"/>
+        <TextBlock x:Name="lblMessage" HorizontalAlignment="Left" Margin="10,549,0,32" TextWrapping="Wrap" Text="Message" Width="340" FontSize="22"/>
+
+    </Grid>
+</Page>
